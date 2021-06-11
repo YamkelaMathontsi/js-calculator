@@ -1,0 +1,113 @@
+body {
+  width: 90vw;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+}
+
+.calculator {
+  width: 500px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  background-color: navy;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.dis {
+  display: flex;
+  align-items: center;
+}
+
+.display {
+  width: 425px;
+  height: 50px;
+  padding: 7px;
+  background-color: navy;
+  color: white;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.calculate {
+  background-color: brown;
+  color: white;
+  /* margin: 10px; */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.clear {
+  padding-top: -15px;
+  background-color: red;
+  margin: 10px;
+  width: 70px;
+  height: 40px;
+}
+
+.zero {
+  width: 70px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.comma {
+  padding: 7px;
+  background-color: white;
+  margin-left: 20px;
+  width: 70px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px;
+  margin: 5px;
+}
+
+.eq {
+  display: flex;
+  justify-content: center;
+}
+
+.equal {
+  width: 300px;
+  height: 50px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.bottom {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.cal {
+}
+
+.cal-but {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin-bottom: 10px;
+}
